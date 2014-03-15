@@ -1,0 +1,43 @@
+{
+  "name": "symphony-namespace",
+  "version": "0.1.0",
+  "description": "A simple namespace module for the symphony project",
+  "main": "./src/injector.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "eventhashmap": "~0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-istanbul": "~0.2.3",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "dateformat": "~1.0.6-1.2.3",
+    "should": "~2.0.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-devtools": "~0.2.1",
+    "mocha": "~1.13.0",
+    "spec": "~1.0.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-istanbul-coverage": "0.0.2"
+  },
+  "scripts": {
+    "test": "mocha -c -G -R spec --recursive ./test/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattiasFestin/symphony-namespace.git"
+  },
+  "keywords": [
+    "dependency",
+    "injection",
+    "testing"
+  ],
+  "author": "Mattias Festin",
+  "license": "MIT",
+  "gitHead": "15d2aed7198f20148b678bbabef622deead65974"
+}
