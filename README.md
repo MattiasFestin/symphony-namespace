@@ -2,7 +2,7 @@
 symphony-namespace
 ==================
 
-![build status](https://travis-ci.org/MattiasFestin/symphony-namespace.png)
+[![build status](https://travis-ci.org/MattiasFestin/symphony-namespace.png)](https://travis-ci.org/MattiasFestin/symphony-namespace)
 
 A simple namespace module for the symphony project
 </pre></body></html>
