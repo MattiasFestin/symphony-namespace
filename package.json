@@ -2,7 +2,7 @@
   "name": "symphony-namespace",
   "version": "0.1.0",
   "description": "A simple namespace module for the symphony project",
-  "main": "./src/injector.js",
+  "main": "./src/main.js",
   "directories": {
     "test": "test"
   },
