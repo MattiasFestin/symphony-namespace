@@ -2,7 +2,7 @@
 
 var should = require('should');
 
-var namespace = require('../coverage/src/namespace');
+var namespace = require('../coverage/src/main');
 
 describe('#nameSpace', function () {
 	describe('#constructor', function () {
